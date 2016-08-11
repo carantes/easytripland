@@ -1,0 +1,11 @@
+{
+  "name": "easytrip",
+  "version": "1.0.0",
+  "description": "EasyTrip Land Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "author": "",
+  "license": "ISC"
+}
