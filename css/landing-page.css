@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto-Thin";
     font-weight: 700;
 }
 
@@ -41,7 +41,7 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 20%;
 }
 
@@ -51,14 +51,40 @@ h6 {
     font-size: 5em;
 }
 
+.intro-button {
+    padding-top: 5%;
+}
+
+.intro-button input {
+    width: 130px;
+    height: 40px;
+    background-color: #6FBEC8;
+    border: 0px;
+    border-radius: 10px;
+}
+
 .intro-divider {
-    width: 400px;
+    width: 60%;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.intro-input {
+    position: relative;
+    padding-top: 5%;
+}
+
+.intro-input input {
+    color: #BBBEC3;
+    font-size: 2em;
+    width: 70%;
+    text-align: center;
+    background: transparent;
+    border: none;
 }
 
 @media(max-width:767px) {
@@ -83,13 +109,6 @@ h6 {
     .intro-divider {
         width: 100%;
     }
-}
-
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
 }
 
 .content-section-coming-soon {
@@ -168,4 +187,9 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin'; /*a name to be used later*/
+    src: url('/fonts/Roboto-Thin.ttf'); /*URL to font*/
 }
